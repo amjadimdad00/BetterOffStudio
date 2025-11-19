@@ -1,0 +1,41 @@
+{
+  "name": "betteroff-clone",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "clsx": "^2.0.0",
+    "framer-motion": "^12.23.24",
+    "gsap": "^3.13.0",
+    "next": "^15.4.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^24.8.1",
+    "@types/react": "^19.2.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^16.0.3",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "postcss": "^8.5.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  }
+}

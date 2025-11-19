@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'founder';
+  src: url('/fonts/founders-grotesk.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'montreal';
+  src: url('/fonts/PPNeueMontreal.woff2') format('truetype');
+}
+
+:root {
+  --font-founder: 'founder', sans-serif;
+}
+
+:root {
+  --font-montreal: 'montreal', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overscroll-behavior: none;
+}
+
+.founder {
+  font-family: var(--font-founder);
+}
+
+.montreal {
+  font-family: var(--font-montreal);
+}
+
+.selection-black::selection {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.selection-white::selection {
+  background-color: #ffffff;
+  color: #1e1e1e;
+}
+
+.not-select {
+  user-select: none;
+}
